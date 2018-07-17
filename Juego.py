@@ -89,7 +89,7 @@ class Game:
                                 self.newGame.Players[0].isJumping = 1
                                 self.newGame.Players[0].currentJumpSpeed = 7
                                 if event.key == K_SPACE:
-                                    mixer.music.load('Assets/jump.wav')
+                                    mixer.music.load('Assets/jump.mp3')
                                     mixer.music.set_volume(2)
                                     pygame.mixer.music.play()
 
