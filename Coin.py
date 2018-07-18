@@ -38,7 +38,7 @@ class Coin(OnBoard):
     def collectCoin(self):
         # Play coin sound when you collect a coin
         mixer.init()
-        mixer.music.load('Assets/coin.mp3')
+        mixer.music.load('Assets/coin.wav')
         mixer.music.set_volume(1)
         pygame.mixer.music.play()
         return self.__value
