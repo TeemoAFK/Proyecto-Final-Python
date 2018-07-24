@@ -1,7 +1,15 @@
-
+__author__ = 'Batchu Vishal'
 import pygame
 from OnBoard import OnBoard
 from pygame import mixer
+
+'''
+This class defines all our coins.
+Each coin will increase our score by an amount of 'value'
+We animate each coin with 5 images
+A coin inherits from the OnBoard class since we will use it as an inanimate object on our board.
+'''
+
 
 class Coin(OnBoard):
     def __init__(self, raw_image, position):

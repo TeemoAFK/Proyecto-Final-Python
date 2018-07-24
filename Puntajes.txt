@@ -1,3 +1,2 @@
 Puntaje: 20 
-Puntaje: 30 
-Puntaje: 5 
+Puntaje: 90 

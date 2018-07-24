@@ -9,4 +9,4 @@ class Ladder(OnBoard):
     # Actualizar la imagen
     def updateImage(self, raw_image):
         self.image = raw_image
-        self.image = pygame.transform.scale(self.image, (30, 30))
+        self.image = pygame.transform.scale(self.image, (25, 25))
