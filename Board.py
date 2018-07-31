@@ -46,7 +46,7 @@ class Board:
         self.ActiveButtons = [1, 1, 0]  # Initially de los botones
         self.myfont = pygame.font.SysFont("comicsansms", 50)
 
-        self.background = pygame.image.load('Assets/selva.jpg')
+        self.background = pygame.image.load('Assets/fondo.png')
         self.background = pygame.transform.scale(self.background, (width, height))
         self.startbackground = pygame.image.load('Assets/buttonbackground.jpg')
         mixer.music.load('Assets/Inicio.mp3')
